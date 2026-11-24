@@ -1,0 +1,17 @@
+[project]
+name = "pebble-tap-tap-timers"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "rootatoskr", email = "129084982+rootatoskr@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+pebble-tap-tap-timers = "pebble_tap_tap_timers:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
